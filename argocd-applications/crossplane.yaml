@@ -5,7 +5,7 @@ metadata:
 spec:
   destination:
     namespace: crossplane-system
-    server: https://kubernetes.default.svc
+    server: http://kubernetes.default.svc
   project: default
   source:
     chart: crossplane
